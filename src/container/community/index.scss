@@ -91,3 +91,48 @@
 		background-color: #F6E8EF;
 	}
 }
+
+.post__tab {
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+}
+
+.tab {
+	color: #bfbebe;
+	border-bottom: 2px solid #bfbebe;
+	padding: 12px;
+	
+	
+	&-use {
+		color: black;
+		border-color: black;
+		
+		
+		
+	}
+}
+
+.info {
+	display: flex;
+	flex-direction: column;
+	gap: s.space(5);
+}
+.info__title{
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.info__text {
+	font-size: 14px;
+	line-height: 1.4em;
+	color: #888888;
+}
+
+.info__button {
+	border-radius: 10px;
+	background-color: #F46F17;
+	color: white;
+	text-align: center;
+	width: 343px;
+	height: 46px;
+}	
